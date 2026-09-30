@@ -1,0 +1,29 @@
+# Operating System files (Mac & Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+*.rtf
+
+# PHP / Web server
+vendor/
+composer.phar
+*.log
+error_log
+
+# Sensitive Configs
+config.php
+db_connect.php
+.env
+.env.*
+
+# Arduino / ESP32 compilation & build files
+*.hex
+*.bin
+*.elf
+build/
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
